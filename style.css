@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+
+ body {
+
+     background-image: url('https://i.pinimg.com/originals/fe/90/bf/fe90bf65cfbec4d7509895dce536dbb6.jpg');
+     background-size: cover;
+     background-clip: border-box;
+     background-repeat: no-repeat;
+     font-family: 'Roboto', sans-serif;
+
+
+
+ }
+
+ h2 {
+     color: white;
+
+ }
+
+ h1 {
+     opacity: 1;
+     font-size: xx-large;
+     color: antiquewhite;
+ }
+
+ p {
+     opacity: 1;
+     font-size: x-large;
+     color: aliceblue;
+ }
+
+ #Crecket-match {
+     text-align: center;
+ }
+
+ .Forimage {
+     background-color: aqua;
+     border: none;
+
+     margin: auto;
+     cursor: pointer;
+     width: 7rem;
+     height: 7rem;
+     border-radius: 50%;
+ }
+
+ #reset {
+     width: 5rem;
+     /* color: red; */
+     font-size: large;
+     padding: 0.3rem;
+     width: 7rem;
+     border: none;
+     background-color: white;
+     font-family: 'Roboto', sans-serif;
+     border-radius: 5px;
+ }
+
+ img {
+     width: 6rem;
+ }
+
+ .bat {
+     margin-top: 0px;
+ }
+
+ @media screen and (max-width: 870px) {
+     h1 {
+         font-size: x-large;
+
+     }
+
+     h2 {
+         color: azure;
+     }
+
+     p {
+         font-size: large;
+     }
+
+     button {
+         width: 70%;
+         margin-top: 5px;
+     }
+
+
+     .Forimage {
+         width: 7rem;
+         height: 7rem;
+         margin: 1%;
+     }
+
+     img {
+         width: 5rem;
+     }
+
+     body {
+         background-image: url('https://wallpapercave.com/wp/wp4159546.jpg');
+         color: black;
+     }
+ }

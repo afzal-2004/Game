@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat Ball Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://pngimg.com/uploads/cricket/cricket_PNG32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Crecket-match">
+
+        <h1>Bat Ball Stump Game </h1>
+        <p>Please Choose Any One </p>
+
+        <button id="bat" onclick="BatFunction()" class="Forimage"> <img src="images/BAT.png" alt="Cricket-bat"
+                width="70px"></button>
+        <button id="ball" onclick="BallFunction()" class="Forimage"><img src="images/BALL.png" alt="" width="70px"
+                class="bat">
+        </button>
+        <button id="stump" onclick="StumpFunction()" class="Forimage"> <img src="images/Stump.png" alt="Stump-image"
+                width="70px"></button>
+        <h2 id="User_move"></h2>
+        <h2 id="Computer_move"></h2>
+        <h2 id="result"></h2>
+        <h2 id="Score"></h2>
+        <button id="reset" onclick="storageClr()">Reset</button>
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
