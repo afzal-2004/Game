@@ -65,6 +65,13 @@
      margin-top: 0px;
  }
 
+ .images {
+     display: flex;
+     border: 2px solid red;
+     justify-content: center;
+     align-items: center;
+ }
+
  @media screen and (max-width: 870px) {
      h1 {
          font-size: x-large;
