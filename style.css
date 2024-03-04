@@ -37,6 +37,7 @@
  .Forimage {
      border: 2px solid red;
      background-color: aqua;
+     margin: 10px;
      /* border: none; */
      /* margin: auto; */
      cursor: pointer;
@@ -63,6 +64,7 @@
 
  .bat {
      margin-top: 0px;
+
 
  }
 
