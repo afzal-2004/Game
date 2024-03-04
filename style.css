@@ -35,10 +35,10 @@
  }
 
  .Forimage {
+     border: 2px solid red;
      background-color: aqua;
-     border: none;
-
-     margin: auto;
+     /* border: none; */
+     /* margin: auto; */
      cursor: pointer;
      width: 7rem;
      height: 7rem;
@@ -63,6 +63,7 @@
 
  .bat {
      margin-top: 0px;
+
  }
 
  .images {
@@ -71,6 +72,8 @@
      justify-content: center;
      align-items: center;
  }
+
+
 
  @media screen and (max-width: 870px) {
      h1 {
